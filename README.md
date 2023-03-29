@@ -17,3 +17,6 @@ Due to data privacy and protection, the datasets (GTF, GFF, and csv) used during
 mRNA_format.R formats mRNA data and uploads it to a new MDS.
 miRNA_format.R formats microRNA data and uplaods it to an existing MDS object containing mRNA data.
 MDS_Neo4j.R sends data stored in MDS to Neo4j to create a graphical database of transcriptome data, represented as nodes, with biological relationships seen as edges between nodes. Additionally, Neo4j queries are given to extract certain nodes and the associated edges and target nodes.
+
+## License
+MIT License
